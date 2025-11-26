@@ -1,1 +1,1 @@
-B:\UnrealEngine\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat BuildPlugin -Plugin="B:\Projects\PropagationDemo\Plugins\PropagationSystem\PropagationSystem.uplugin" -Package="B:\Projects\PropagationDemo\Builds\PropagationSystem" -Rocket -2019
+B:\UnrealEngine\UE_5.6\Engine\Build\BatchFiles\RunUAT.bat BuildPlugin -Plugin="B:\Projects\PropagationDemo\Plugins\PropagationSystem\PropagationSystem.uplugin" -Package="B:\Projects\PropagationDemo\Builds\PropagationSystem" -Rocket -2019
