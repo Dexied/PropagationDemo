@@ -228,3 +228,210 @@ Loading FilterPluginWin64.ini
 BUILD SUCCESSFUL
 AutomationTool executed for 0h 1m 5s
 AutomationTool exiting with ExitCode=0 (Success)
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin="B:\Projects\PropagationDemo\Plugins\PropagationSystem\PropagationSystem.uplugin  " -Package=B:\Projects\PropagationDemo\Builds\PropagationSystem -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.18 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 127 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\HostProject.uproject" -plugin="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin" -noubtmakefiles -manifest="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from PropagationSystem unity file: PropagationSurfaceAsyncAction.cpp, PropagationSystem.cpp, PropagationVoidAsyncAction.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 27.11 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/9] Compile Resource [x64] Default.rc2
+[2/9] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/9] Compile [x64] PropagationSystem.cpp
+[4/9] Compile [x64] Module.PropagationSystem.cpp
+[5/9] Compile [x64] PropagationVoidAsyncAction.cpp
+[6/9] Compile [x64] PropagationSurfaceAsyncAction.cpp
+[7/9] Link [x64] UnrealEditor-PropagationSystem.lib
+[8/9] Link [x64] UnrealEditor-PropagationSystem.dll
+[9/9] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 36.94 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 62.86 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 11.5kb
+Took 63,27s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\HostProject.uproject" -plugin="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin" -noubtmakefiles -manifest="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from PropagationSystem unity file: PropagationSurfaceAsyncAction.cpp, PropagationSystem.cpp, PropagationVoidAsyncAction.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 26.6 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] PropagationSystem.cpp
+[2/4] Compile [x64] Module.PropagationSystem.cpp
+[3/4] Compile [x64] PropagationSurfaceAsyncAction.cpp
+B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\Source\PropagationSystem\Private\PropagationSurfaceAsyncAction.cpp(343,6): error C3861: 'DrawDebugDirectionalArrow': identifier not found
+					DrawDebugDirectionalArrow(WeakWorld.Get(), OutNextPointLocation, OutNextPointLocation + OutNextPointNormal * 100.f, 10.f, FColor::Red, false, 10.f, SDPG_World, 2.f);
+					^
+B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\Source\PropagationSystem\Private\PropagationSurfaceAsyncAction.cpp(370,6): error C3861: 'DrawDebugDirectionalArrow': identifier not found
+					DrawDebugDirectionalArrow(WeakWorld.Get(), OutNextPointLocation, OutNextPointLocation + OutNextPointNormal * 100.f, 10.f, FColor::Red, false, 10.f, SDPG_World, 2.f);
+					^
+B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\Source\PropagationSystem\Private\PropagationSurfaceAsyncAction.cpp(397,6): error C3861: 'DrawDebugDirectionalArrow': identifier not found
+					DrawDebugDirectionalArrow(WeakWorld.Get(), OutNextPointLocation, OutNextPointLocation + OutNextPointNormal * 100.f, 10.f, FColor::Red, false, 10.f, SDPG_World, 2.f);
+					^
+B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\Source\PropagationSystem\Private\PropagationSurfaceAsyncAction.cpp(423,6): error C3861: 'DrawDebugDirectionalArrow': identifier not found
+					DrawDebugDirectionalArrow(WeakWorld.Get(), OutNextPointLocation, OutNextPointLocation + OutNextPointNormal * 100.f, 10.f, FColor::Red, false, 10.f, SDPG_World, 2.f);
+					^
+[4/4] Compile [x64] PropagationVoidAsyncAction.cpp
+Total time in Unreal Build Accelerator local executor: 6.29 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 9.40 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 7.6kb
+Took 9,60s to run dotnet.exe, ExitCode=6
+UnrealBuildTool failed. See log for more details. (C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt)
+AutomationTool executed for 0h 1m 13s
+AutomationTool exiting with ExitCode=6 (6)
+BUILD FAILED
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin="B:\Projects\PropagationDemo\Plugins\PropagationSystem\PropagationSystem.uplugin  " -Package=B:\Projects\PropagationDemo\Builds\PropagationSystem -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.18 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 127 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\HostProject.uproject" -plugin="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin" -noubtmakefiles -manifest="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from PropagationSystem unity file: PropagationSurfaceAsyncAction.cpp, PropagationSystem.cpp, PropagationVoidAsyncAction.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 25.81 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/9] Compile Resource [x64] Default.rc2
+[2/9] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/9] Compile [x64] PropagationSystem.cpp
+[4/9] Compile [x64] Module.PropagationSystem.cpp
+[5/9] Compile [x64] PropagationVoidAsyncAction.cpp
+[6/9] Compile [x64] PropagationSurfaceAsyncAction.cpp
+[7/9] Link [x64] UnrealEditor-PropagationSystem.lib
+[8/9] Link [x64] UnrealEditor-PropagationSystem.dll
+[9/9] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 37.17 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 45.18 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 9.8kb
+Took 45,60s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\HostProject.uproject" -plugin="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin" -noubtmakefiles -manifest="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from PropagationSystem unity file: PropagationSurfaceAsyncAction.cpp, PropagationSystem.cpp, PropagationVoidAsyncAction.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 25.18 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] PropagationSystem.cpp
+[2/4] Compile [x64] Module.PropagationSystem.cpp
+[3/4] Compile [x64] PropagationVoidAsyncAction.cpp
+[4/4] Compile [x64] PropagationSurfaceAsyncAction.cpp
+
+Total time in Unreal Build Accelerator local executor: 7.69 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame.exe
+
+Result: Succeeded
+Total execution time: 10.62 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 5.9kb
+Took 10,82s to run dotnet.exe, ExitCode=0
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Shipping -Project="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\HostProject.uproject" -plugin="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\PropagationSystem.uplugin" -noubtmakefiles -manifest="B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+Writing manifest to B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from PropagationSystem unity file: PropagationSurfaceAsyncAction.cpp, PropagationSystem.cpp, PropagationVoidAsyncAction.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 24.79 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] PropagationSystem.cpp
+[2/4] Compile [x64] Module.PropagationSystem.cpp
+[3/4] Compile [x64] PropagationVoidAsyncAction.cpp
+[4/4] Compile [x64] PropagationSurfaceAsyncAction.cpp
+
+Total time in Unreal Build Accelerator local executor: 6.49 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame-Win64-Shipping.exe
+
+Result: Succeeded
+Total execution time: 8.11 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 5.7kb
+Took 8,30s to run dotnet.exe, ExitCode=0
+Reading filter rules from B:\Projects\PropagationDemo\Builds\PropagationSystem\HostProject\Plugins\PropagationSystem\Config\FilterPlugin.ini
+Loading FilterPluginWin64.ini
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 5s
+AutomationTool exiting with ExitCode=0 (Success)
